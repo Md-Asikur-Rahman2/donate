@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 import ApplePay from "../../assets/images/payments/ApplePay.svg";
 import GooglePay from "../../assets/images/payments/GooglePay.svg";
 import Mastercard from "../../assets/images/payments/Mastercard.svg";
-import Paypal from "../../assets/images/payments/uk-flag.jpg";
+import Paypal from "../../assets/images/payments/PayPal.svg";
 import Payoneer from "../../assets/images/payments/Payoneer.svg";
 import Visa from "../../assets/images/payments/Visa.svg";
 
