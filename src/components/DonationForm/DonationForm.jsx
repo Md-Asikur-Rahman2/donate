@@ -61,37 +61,37 @@ const DonationFrom = () => {
 
     // Custom validation rules go here
     if (!data.fullName.trim()) {
-      errors.fullName = "Full Name is ";
+      errors.fullName = "Full Name is required ";
     }
 
     if (!data.occupation.trim()) {
-      errors.occupation = "Occupation is ";
+      errors.occupation = "Occupation is required ";
     }
 
     if (!data.email.trim()) {
-      errors.email = "Email is ";
+      errors.email = "Email is required ";
     } else if (!isValidEmail(data.email)) {
       errors.email = "Invalid email format";
     }
 
     if (!data.phoneNumber.trim()) {
-      errors.phoneNumber = "Phone Number is ";
+      errors.phoneNumber = "Phone Number is required ";
     }
 
     if (!data.country.trim()) {
-      errors.country = "Country is ";
+      errors.country = "Country is required ";
     }
 
     if (!data.stateProvince.trim()) {
-      errors.stateProvince = "State/Province is ";
+      errors.stateProvince = "State/Province is required ";
     }
 
     if (!data.city.trim()) {
-      errors.city = "City is ";
+      errors.city = "City is required ";
     }
 
     if (!data.zipCode.trim()) {
-      errors.zipCode = "Zip Code is ";
+      errors.zipCode = "Zip Code is required ";
     }
 
     return errors;
