@@ -1,0 +1,25 @@
+{
+    "donationInfo": {
+      "currentDonation": 1000,
+      "goal": 5500,
+      "giverCount": 325,
+      "timeRemaining": {
+        "days": 161,
+        "hours": 17,
+        "minutes": 20,
+        "seconds": 23
+      },
+      "donationOptions": {
+        "amounts": [10, 25, 50, 100, 250],
+        "customAmount": 0
+      },
+      "tipOptions": {
+        "giveTips": [0, 22, 36],
+        "customGiveTip": 0
+      },
+      "volunteerTips": {
+        "enabled": false,
+        "tips": [0, 20, 30, 40]
+      }
+    }
+  }
