@@ -257,6 +257,22 @@ const DonationDetails = () => {
       label: ShareLabel,
       children: ShareContent,
     },
+    {
+      key: "6",
+      label: ShareLabel,
+      children: ShareContent,
+    },
+    {
+      key: "7",
+      label: ShareLabel,
+      children: ShareContent,
+    },
+
+    {
+      key: "8",
+      label: ShareLabel,
+      children: ShareContent,
+    },
   ];
 
   return (

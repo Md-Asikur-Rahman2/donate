@@ -13,6 +13,7 @@ import BeVolunteer from "./pages/beVolunteer/BeVolunteer.jsx";
 import { ConfigProvider } from "antd";
 import DonationDetailsPage from "./pages/donationDetailsPage/DonationDetailsPage.jsx";
 import TestPage from "./pages/testPage/TestPage.jsx";
+import DonationFormPage from "./pages/donationFormPage/DonationFormPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -44,8 +45,12 @@ const router = createBrowserRouter([
         element: <BeVolunteer />,
       },
       {
-        path: "/donate/:id",
+        path: "/donationDetails",
         element: <DonationDetailsPage />,
+      },
+      {
+        path: "/donationForm",
+        element: <DonationFormPage />,
       },
       {
         path: "/test",

@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { BsFillHeartFill } from "react-icons/bs";
 
 const OngoingDonationCard = ({ donation, raisedPercentage }) => {
+  const navigate = useNavigate();
   return (
     <div className="bg-gray-700 text-white rounded-md overflow-hidden shadow-md">
       <div className="relative">
@@ -87,9 +88,12 @@ const OngoingDonationCard = ({ donation, raisedPercentage }) => {
             View
           </Link>
 
-          <Link to={`/donate/${donation._id}`} className="btn btn-sm btn-success">
+          <button
+            className="btn btn-sm btn-success"
+            onClick={() => navigate("/donationDetails")}
+          >
             Donate
-          </Link>
+          </button>
         </div>
       </div>
     </div>

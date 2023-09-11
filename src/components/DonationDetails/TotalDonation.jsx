@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const TotalDonation = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="border border-green-500 p-4">
@@ -11,7 +14,10 @@ const TotalDonation = () => {
       </div>
 
       <div className="flex justify-end items-end m-5">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded">
+        <button
+          onClick={() => navigate("/donationForm")}
+          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded"
+        >
           Donate Now
         </button>
       </div>
